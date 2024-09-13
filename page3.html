@@ -1,0 +1,157 @@
+<!-- Author: Hengsocheat Pok
+ This is the 3rd page of a website called 'The British Empire in a Nutshell'
+  Like the name suggests, the website talks about all you need to know about the empire in a short summary
+   for those who are interested in the empire's history, which had a lot of considerable impact
+   on today's world.-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The British Empire In a Nutshell</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .background-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #060655;
+            padding: 10px;
+            box-sizing: border-box;
+            position: fixed; /* Fix the background container */
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .background-image {
+            width: calc(33.33% - 20px);
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            margin: 0 10px;
+        }
+        .image1 {
+            background-image: url('./img/British-empire-facts.jpg');
+        }
+        .image2 {
+            background-image: url('./img/British-Empire-Events.jpg');
+        }
+        .image3 {
+            background-image: url('./img/American-Revolution.jpg');
+        }
+        .content {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            padding: 20px;
+            background-color: rgba(3, 3, 11, 0.652);
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: white;
+        }
+            h1, h2 {
+                background-color: rgba(183, 0, 0, 0.6); /* Semi-transparent black background */
+                padding: 10px; /* Add padding around the text */
+                border-radius: 5px; /* Round the corners of the background */
+            }
+            h1 {
+                text-align: center; /* Center the heading */
+                font-size: 2.5em; /* Make the heading large */
+                margin-top: 0; /* Remove the top margin */
+            }
+            h2 {
+                font-size: 2em; /* Increase the size of the subheading */
+                margin-top: 20px; /* Add space above the subheading */
+                margin-bottom: 20px; /* Add space below the subheading */
+            }
+            .button-list {
+                list-style: none; /* Remove default list styling */
+                padding: 0; /* Remove default padding */
+                margin: 0; /* Remove default margin */
+                display: flex; /* Arrange list items horizontally */
+                justify-content: center; /* Center the buttons horizontally */
+                margin-bottom: 20px; /* Add space below the buttons */
+            }
+            .button-list li {
+                margin: 0 10px; /* Add space between buttons */
+            }
+            .button-list a {
+                display: inline-block; /* Make links appear as blocks */
+                padding: 10px 20px; /* Add padding inside the button */
+                background-color: rgba(0, 0, 144, 0.8); /* Semi-transparent background for the button */
+                color: white; /* Text color */
+                text-decoration: none; /* Remove underline from links */
+                border-radius: 5px; /* Round the corners of the buttons */
+                font-size: 1em; /* Set font size for the button text */
+                transition: background-color 0.3s ease; /* Smooth background color transition */
+                border: 1px solid transparent; /* Default border */
+            }
+            .button-list a:hover {
+                background-color: rgb(30, 69, 176); /* Darker background on hover */
+            }
+            .current-page {
+                background-color: rgba(55, 33, 33, 0.9); /* Darker background for the current page button */
+                color: #acacac; /* Light gray text to indicate it's inactive */
+                border: 2px solid #ffffff; /* White border to highlight the current page */
+                cursor: default; /* Change cursor to default to indicate it's not clickable */
+                pointer-events: none; /* Prevent click events */
+            }
+            p {
+                font-size: 1.2em; /* Increase the paragraph font size for readability */
+                line-height: 1.6; /* Improve readability with a comfortable line height */
+                margin-bottom: 15px; /* Add space between paragraphs */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-container">
+            <div class="background-image image1"></div>
+            <div class="background-image image2"></div>
+            <div class="background-image image3"></div>
+        </div>
+        <div class="content">
+            <h1>The British Empire Simplified</h1>
+            
+            <ul class="button-list">
+                <li><a href="index.html">Introduction - Why is it Important?</a></li> <!-- Current page button -->
+                <li><a href="page2.html">1.Formation of the British Empire</a></li>
+                <li><a href="page3.html" class="current-page">> 2.Key Historical Events</a></li>
+                <li><a href="page4.html">3.The End and Legacy</a></li>
+            </ul>
+            <h2>Key Historical Events</h2>
+            <p>
+                The history of the British Empire is marked by a series of significant events that shaped its development and left an indelible mark on the world. These events reflect the empire's complex and often turbulent journey from a collection of colonies to the most extensive empire in history, influencing global politics, economics, and culture.
+            </p>
+            <p>
+                One of the earliest and most critical events in the history of the British Empire was the defeat of the Spanish Armada in 1588. This victory under Queen Elizabeth I not only established England as a formidable naval power but also paved the way for its future maritime dominance. The successful repulsion of Spain, then the world’s leading imperial power, gave England the confidence to pursue its own imperial ambitions, leading to the establishment of colonies in the Americas and beyond. This event marked the beginning of England's transformation into a global power.
+            </p>
+            <p>
+                Another pivotal event in the expansion of the British Empire was the Act of Union in 1707, which united England and Scotland into a single sovereign state, Great Britain. This union significantly bolstered the empire's resources and military power, enabling further expansion into North America, the Caribbean, and Asia. The Act of Union also marked the beginning of the British Empire as a truly united kingdom, capable of projecting power on a global scale. The newly unified Britain emerged as a major player in the European balance of power, with its sights set on building an empire that would span the globe.
+            </p>
+            <p>
+                The Seven Years’ War (1756–1763) was another landmark event in the history of the British Empire. Often referred to as the first "world war," this conflict involved most of the great powers of the time and was fought across Europe, North America, Asia, and Africa. The war ended with the Treaty of Paris in 1763, which saw Britain gain significant territories, including Canada from France and Florida from Spain. This war solidified Britain’s position as the preeminent colonial power, with its empire stretching from North America to India. The victory in the Seven Years' War marked the beginning of what is often called the "First British Empire."
+            </p>
+            <p>
+                The American Revolution (1775–1783) was a profound and transformative event for the British Empire. The loss of the Thirteen Colonies in North America dealt a significant blow to British prestige and power, challenging the empire’s invincibility. The revolution led to the independence of the United States and forced Britain to reevaluate its colonial strategies. In the aftermath, Britain turned its attention toward Asia and the Pacific, seeking to expand its influence in India and Australia. This shift in focus ultimately led to the growth of the "Second British Empire," centered on Asia and Africa, rather than the Americas.
+            </p>
+            <p>
+                The abolition of the transatlantic slave trade in 1807 and the subsequent abolition of slavery in the British Empire in 1833 were also key events that reshaped the empire's moral and economic foundations. The British Empire had played a central role in the slave trade, and its abolition marked a significant shift in the empire’s values and policies. The abolitionist movement, led by figures like William Wilberforce, was driven by a combination of humanitarian concern and changing economic interests. The end of slavery in the empire was a landmark in the history of human rights, although its implementation was gradual and complex, with significant resistance from some colonies.
+            </p>
+            <p>
+                The British Empire reached its zenith during the Victorian era, particularly following the Indian Rebellion of 1857. This uprising, also known as the Indian Mutiny, was a major, though unsuccessful, revolt against British rule in India. The rebellion led to the dissolution of the East India Company and the establishment of direct rule by the British Crown over India, marking the beginning of the British Raj. The subsequent period saw the expansion of British influence in Africa and the Pacific, with the empire controlling territories on every continent. The Empire’s global reach during this period was unmatched, with Queen Victoria being declared the Empress of India in 1876, symbolizing the Empire's grandeur and its dominance over a vast and diverse population.
+            </p>
+            <p>
+                World War I (1914–1918) and World War II (1939–1945) were defining events that marked the beginning of the decline of the British Empire. Despite emerging on the victorious side in both conflicts, Britain was left economically weakened and politically drained. The wars had a profound impact on the colonies, many of which contributed troops and resources to the war effort. In the aftermath of World War II, the process of decolonization accelerated, as nationalist movements gained momentum across the empire. India, the "jewel in the crown" of the British Empire, gained independence in 1947, signaling the beginning of the end for the empire. Over the following decades, most of the British colonies gained independence, leading to the dissolution of the British Empire and the emergence of the Commonwealth of Nations, a voluntary association of former colonies.
+            </p>
+        </div>
+    </body>
+</html>
